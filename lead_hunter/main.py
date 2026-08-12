@@ -5,11 +5,11 @@ from scraper import GoogleMapsScraper
 def main():
 
     categoria = input(
-        "O que você quer encontrar? "
+        "O que você quer encontrar?: "
     ).strip()
 
     regiao = input(
-        "Em qual cidade/região? "
+        "Em qual cidade/região?: "
     ).strip()
 
     if not categoria or not regiao:
